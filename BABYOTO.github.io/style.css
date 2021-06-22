@@ -1,0 +1,200 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.topbar a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    font-size: medium;
+    margin-top: -35px;
+}
+
+.bartop1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.bartop2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px;
+    padding: 25px;
+}
+
+.nav1 a{
+    padding: 15px;
+}
+
+.svg1{
+    width: 75px;
+    height: 50px;
+}
+
+#recherche{ 
+    background-color: whitesmoke;
+    border: none;
+    width: 675px;
+    height: 50px;
+}
+
+.but{ 
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 50px;
+}
+
+.cadre{
+    border: 1px solid;
+    padding: 1em 1em;
+}
+
+.nav2 a{ 
+    margin:13px;
+}
+
+.fond1{ 
+    background-image: url(image/fond-decran.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.p1{ 
+    font-size: 87px;
+}
+
+.fond-size20, .button1, .button2{ 
+    font-size: 20px;
+}
+
+.p3{ 
+    font-size: 50px;
+}
+
+.lien1 a{ 
+    padding: 15px;
+}
+
+.button1{
+    background-color: rgb(230, 230, 49);
+    border-radius: 180px;
+    border-style: none;
+    width:215px ;
+    height: 55px ;
+}
+
+.button2{
+    background-color: rgba(255, 0, 0, 0.808);
+    border-radius: 160px;
+    border-style: 2px white ;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    width: 215px;
+    height: 55px;
+}
+
+.im1{ 
+    display: block;
+    margin: 55px auto;
+    border: 0px;
+}
+
+.div2{
+    text-align: center;
+    color: black;
+    font-weight:500 ;
+}
+
+.p3{ 
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.p4{ 
+    font-size: 14px;
+}
+
+.fond2{
+    background-image: url(image/tonton-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.pp5{
+    font-size: 55px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.pp6{
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.pp7{
+    text-align: center;
+    font-size: 43px;
+    padding-top: 30px;
+
+}
+
+.im2{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding-top: 30px;
+    margin-bottom: 100px;
+    width: 570px;
+    height: 580px;
+}
+
+.svg2{
+    width: 75px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border-top: 1px solid;
+    padding: 50px;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 37px;
+}
+
+.footer-lien{
+    color: rgb(94, 94, 94);
+    margin-right: 70px;
+}
+
+.footer-lien ul{
+    list-style-type: none;
+}
+
+.footer-lien a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
